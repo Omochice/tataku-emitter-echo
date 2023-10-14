@@ -3,8 +3,8 @@ import { echo } from "https://deno.land/x/denops_std@v3.8.1/helper/mod.ts";
 
 export async function run(
   denops: Denops,
-  options: Record<string, unkown>,
+  _options: Record<string, unknown>,
   source: string[],
 ): Promise<void> {
-  await echo(denops, source);
+  await echo(denops, source.join("\n"));
 }
