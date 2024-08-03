@@ -1,25 +1,25 @@
-# tataku-emitter-echo 
+# tataku-emitter-echo
 
 The emitter module that use `echo` for tataku.vim.
 
-## Contents 
+## Contents
 
 - [Dependencies](tataku-emitter-echo-dependencies)
 - [Options](tataku-emitter-echo-options)
 - [Samples](tataku-emitter-echo-samples)
 
-## Dependencies 
+## Dependencies
 
 This plugin needs below:
 
 - [denops.vim](https://github.com/vim-denops/denops.vim)
 - [tataku.vim](https://github.com/Omochice/tataku.vim)
 
-## Options 
+## Options
 
 This module any options.
 
-## Samples 
+## Samples
 
 ```vim
 let g:tataku_recipes = #{
@@ -30,4 +30,3 @@ let g:tataku_recipes = #{
   \   },
   \ }
 ```
-
