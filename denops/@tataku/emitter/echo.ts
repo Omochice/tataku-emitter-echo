@@ -1,5 +1,5 @@
 import { Denops } from "jsr:@denops/std@7.0.2";
-import { echo } from "jsr:@denops/std@7.0.2/helper/mod";
+import { echo } from "jsr:@denops/std@7.0.2/helper";
 
 const emitter = (denops: Denops, _option: unknown) => {
   return new WritableStream<string[]>({
