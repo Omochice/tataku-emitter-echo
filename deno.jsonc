@@ -9,7 +9,11 @@
     "docs:markdown": "deno run -A https://pax.deno.dev/Omochice/podeno/cli.ts markdown --in README.pod --out README.md"
   },
   "lock": false,
-  "fmt": {
-    "exclude": ["CHANGELOG.md"]
+  "lint": {
+    "rules": {
+      "exclude": [
+        "no-import-prefix"
+      ]
+    }
   }
 }
