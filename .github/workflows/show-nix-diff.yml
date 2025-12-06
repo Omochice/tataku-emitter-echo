@@ -8,8 +8,6 @@ on:
 
 jobs:
   comment-nix-diff:
-    needs: path-filter
-    if: ${{ github.event_name == 'pull_request' }}
     uses: Omochice/shared-action/.github/workflows/show-nix-diff.yaml@c290abfa67160af9f95a58596254619ddd4d6342 # v1.0.0
     permissions:
       pull-requests: write
